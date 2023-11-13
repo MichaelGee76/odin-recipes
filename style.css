@@ -1,7 +1,7 @@
 body {
-    margin: 0 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
     font-family: 'Merriweather', serif;
-    background-image: linear-gradient(to top, #FFBB5C,#FF9B50, white );
+    background-image: linear-gradient(to right, rgb(180, 57, 12),#FF9B50,#FFBB5C );
 
 }
 
@@ -11,6 +11,7 @@ h1 {
     font-size: 5rem;
     border-radius: 10px;
     box-shadow: 0px 5px 5px 0px;
+    mix-blend-mode: difference;
 }
 
 .header {
@@ -28,6 +29,7 @@ h1 {
     gap: 20px;
     flex-wrap: wrap;
     border-radius: 10px;
+    background-image: linear-gradient(to left, rgb(180, 57, 12),#FF9B50,#FFBB5C );
 }
 
 .hero {
@@ -53,6 +55,7 @@ ul li {
     border: 1px solid white;
     border-radius: 10px;
     padding: 5px;
+    gap: 5px;
 }
 
 a {
@@ -63,17 +66,19 @@ a {
 ul li:hover {
     background-color: #F5EEC8;
     color: #555843;
-    
-
-
+   
 }
+
 
 .container-list {
     display: flex;
     justify-content: center;
+    align-self: center;
+    margin-bottom: 50px;       
     background-color: #FF9B50;
-    border-radius: 10px;
-    margin: 0;
+    border-radius: 10px;    
+    background-image: linear-gradient(to left, rgb(180, 57, 12),#FF9B50,#FFBB5C );
+   
     
 }
 
@@ -86,3 +91,40 @@ h2 {
     
 }
 
+.lentil, .shakshuka, .squash {
+    
+    text-align: center; 
+    mix-blend-mode: difference;  
+    
+}
+
+.dish {
+    display: block;
+    border: 1px solid white;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+
+.home {
+    color: white;
+    
+}
+
+.p-dish {
+    text-align: center;
+    font-size: large;
+}
+
+.container-list ol li {
+    margin: 20px 0;
+}
+
+span {
+    color: white;
+    margin-left: 2rem;
+    
+}
