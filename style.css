@@ -105,9 +105,13 @@ h2 {
     margin: auto;
     width: 50%;
     border-radius: 10px;
+    
 
 }
 
+img {
+    filter: blur(0.25rem);
+}
 
 .home {
     color: white;
